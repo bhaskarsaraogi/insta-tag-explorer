@@ -1,0 +1,44 @@
+* { margin: 0; padding: 0; outline: none; }
+html { height: 105%; }
+body { font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif; }
+
+small { display: block; color: #555; padding: 10px 0px; }
+
+#container { margin: 0 auto; width: 960px; }
+
+#form { width: 710px; margin: 0 auto; margin-top: 25px; margin-bottom: 35px; }
+#form #search {
+padding: 10px 11px;
+padding-left: 60px;
+color: #999;
+width: 600px;
+border: 1px solid #ddd;
+font-size: 22px;
+/* icon source: http://modmyi.com/forums/iphone-4-new-skins-themes-launches/723225-buuf-iphone-4-a-398.html#post6275581 */
+transition: box-shadow 0.15s linear 0s, color 0.15s linear 0s;
+-webkit-transition: box-shadow 0.25s linear 0s, color 0.15s linear 0s;
+-moz-transition: box-shadow 0.25s linear 0s, color 0.15s linear 0s;
+-o-transition: box-shadow 0.25s linear 0s, color 0.15s linear 0s;
+box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+}
+#form #search:focus {
+color: #767676;
+border-color: #c5d7ee;
+box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset, 0 0 8px rgba(170, 200, 240, 0.9);
+-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset, 0 0 8px rgba(170, 200, 240, 0.9);
+-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset, 0 0 8px rgba(170, 200, 240, 0.9);
+}
+
+#form #search.loading {
+	background: url('../img/loader.gif') 10px 7px no-repeat;
+}
+
+#photos { margin-left: 80px; text-align: center; }
+#photos .p { float: left; width: 170px; display: inline-block; position: relative; margin-right: 20px; margin-bottom: 12px; }
+
+#photos .p img { border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; }
+
+#photos .p .fullsize { width: 48px; height: 48px; display: block; margin-left: 70px; margin-bottom: 5px; }
